@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato",sans-serif;
+}
+
+/*cabeçalho*/
+
+.cabeçalho {
+    display: flex;
+    background-color: #1d1d1f;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navgation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2em;
+    margin-left: 3em;
+
+}
+
+.navgation i {
+    color: #fff;
+    margin-left: 18em;
+    cursor: pointer;
+}
+
+/*banner*/
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("imagem/city.png");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+
+}
+
+.banner-text  {
+    padding-top: 10em;
+    padding-left: 19em;
+    line-height: 3em;
+
+    
+}
+
+.banner-text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner-text p {
+    color: gray;
+    font-size: 20px;
+
+
+}
+
+.banner-text button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    height: 49px;
+    width: 190px;
+    cursor: pointer;
+    margin-left: 16em;
+    margin-top: 1em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    
+}
+
+.banner-text button:hover {
+    opacity: 1;
+    
+}
+
+section .principal-descrition {
+    display: flex;
+    margin-top: 3em;
+    gap: 3em;
+    padding: 2em;
+    
+}
+
+.text-descrition i {
+    margin-left: 6em;
+    margin-bottom: 3em;
+    color: #1d1d1f;
+    font-size: 24px;
+}
+
+.text-descrition h3 {
+    color: #1d1d1f;
+    margin-left: 4em;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+
+.text-descrition p {
+    color: gray;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 1em;
+    margin-left: 1em;
+}
